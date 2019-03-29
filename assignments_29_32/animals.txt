@@ -1,0 +1,10 @@
+Horse
+Crocodile
+Tamandua
+Python
+Bird
+Fox
+Iguana
+Ostrich
+Kangaroo
+Penguin

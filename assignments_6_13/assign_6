@@ -1,0 +1,12 @@
+# Tehtävä 6
+
+def compareNumbers(a,b):
+	if a > b:
+		print (a,"on suurempi kuin",(b))
+	elif a == b:
+		print ("Numerot ovat yhtäsuuret")
+	else:
+		print (b,"on suurempi kuin",(a))
+
+compareNumbers(21,12)
+		

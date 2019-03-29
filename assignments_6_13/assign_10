@@ -1,0 +1,55 @@
+# Tehtävä 10 
+
+# Vaihtoehto 1
+
+def reverse(lista):
+    if len(lista) != 0:
+        temp = lista.pop(0)
+        reverse(lista)
+        lista.append(temp)
+    return lista
+
+print(reverse([1,2,3,4])) #prints [4,3,2,1]
+print(reverse(["aa", "bb", "cc"])) #prints ["cc", "bb", "aa"]
+
+'''
+# Vaihtoehto 2
+
+def reverse(l):
+    if len(l) == 0:
+        return []  # base case
+    else:
+        return [l.pop()] + reverse(l)  # recusrive case
+
+print(reverse([1,2,3,4])) #prints [4,3,2,1]
+print(reverse(["aa", "bb", "cc"])) #prints ["cc", "bb", "aa"]
+'''
+'''
+# Vaihtoehto 3
+
+def reverse(listName,newList = None):
+	if newList == None:
+		newList = []
+	if len(listName)>0:
+		newList.append((listName.pop()))
+		return reverse(listName, newList)
+	else:
+		return newList
+
+print(reverse([1,2,3,4])) #prints [4,3,2,1]
+print(reverse(["aa", "bb", "cc"])) #prints ["cc", "bb", "aa"]
+'''
+'''
+# Vaihtoehto 4
+## Ei ole toimiva
+
+def reverse(list):
+        i = len(list) -1
+        while i >= 0:
+                reverseList[i] = list.pop()
+                i = i - 1
+        return(revList)
+
+print(reverse([1,2,3,4])) #prints [4,3,2,1]
+print(reverse(["aa", "bb", "cc"])) #prints ["cc", "bb", "aa"]
+'''

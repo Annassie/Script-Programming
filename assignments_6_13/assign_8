@@ -1,0 +1,13 @@
+# Tehtävä 8 
+
+list1 = [1,2,3,4,5] #the function should return 15
+list2 = [1,1,1,1]   #the function should return 4
+
+def sum(lista):
+	summa = 0
+	for i in lista:
+		summa += i
+	return summa
+
+print("Listan 1 alkioiden summa on", sum(list1))
+print("Listan 2 alkioiden summa on", sum(list2))

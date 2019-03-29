@@ -1,0 +1,29 @@
+# Tehtävä 11
+# Vaihtoehto 1
+
+def sum2(num):
+        sum = 0
+        while(num > 0):
+                sum += num
+                num -= 1
+        return sum
+
+print(sum2(3)) #prints: 6
+print(sum2(12)) #prints: 78
+
+'''
+# Vaihtoehto 2
+## Toimii vain yhdelle arvolle
+
+def sum2(num):
+#	n = 3
+	n = 12
+	sum = 0
+	for num in range(0,n+1,1):
+		sum = sum + num
+	return sum
+
+
+#print(sum2(3)) #prints: 6
+print(sum2(12)) #prints: 78
+'''

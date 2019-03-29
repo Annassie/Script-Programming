@@ -1,0 +1,25 @@
+# Tehtävä 13
+
+name = "Musti"
+
+def dog_sleeps(name, time):
+	return name + " " + "sleeps" + " " + str(time) + " " + "hours"
+
+def dog_walks(name, speed):
+	return name + " " + "walks" + " " + str(speed) + " " +  "km/h speed"
+
+def dog_runs(name, speed):
+	return name + " " + "runs" + " " + str(speed) + " "  + "speed"
+
+def dog_barks(name, sound):
+	return name + " " + "barks with a sound" + " " + sound
+
+
+print(
+	dog_sleeps(name,8),'\n', #prints: Musti sleeps 9 hours
+	dog_walks(name, 10),'\n', #prints: Musti walks 10.00 km/h speed
+	dog_runs(name, 17), '\n', #prints: Musti runs 17 speed
+	dog_barks(name, "wuf wuf") #prints: Musti barks with a sound "wuf wuf"
+	
+)
+

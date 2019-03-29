@@ -1,0 +1,11 @@
+# Tehtävä 9
+
+def largest(lista):
+	myMax = lista[0]
+	for num in lista:
+		if myMax < num:
+			myMax = num
+	return myMax
+
+print("Suurin numero listassa on", largest([45,2,99,14,7]))
+	

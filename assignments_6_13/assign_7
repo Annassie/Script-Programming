@@ -1,0 +1,13 @@
+# Tehtävä 7
+
+def sumNumbers(a,b):
+
+	sum = a + b
+	print("Summa on", sum)
+	print("Onko summa jaollinen 2:lla?")
+	if sum % 2 == 0:
+		print("Yes, it is!")
+	else:
+		print("Nope")
+
+sumNumbers(13,34)
